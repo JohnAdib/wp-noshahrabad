@@ -1,0 +1,19 @@
+[19-May-2015 10:40:38 UTC] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error refreshing the OAuth2 token, message: '{
+  "error" : "invalid_grant"
+}'' in /home/nshrabad/public_html/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php:288
+Stack trace:
+#0 /home/nshrabad/public_html/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php(248): Google_OAuth2->refreshTokenRequest(Array)
+#1 /home/nshrabad/public_html/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php(225): Google_OAuth2->refreshToken('1/NjKJntRTgUDMI...')
+#2 /home/nshrabad/public_html/wp-content/plugins/google-analyticator/google-api-php-client/src/service/Google_ServiceResource.php(167): Google_OAuth2->sign(Object(Google_HttpRequest))
+#3 /home/nshrabad/public_html/wp-content/plugins/google-analyticator/google-api-php-client/src/contrib/Google_AnalyticsService.php(784): Google_ServiceResource->__call('list', Array)
+#4 /home/nshrabad/public_html/wp-content/plugin in /home/nshrabad/public_html/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php on line 288
+[19-May-2015 10:41:18 UTC] خطای Can't DROP 'slug'; check that column/key exists در پایگاه‌داده وردپرس برای دستور ALTER TABLE wp_terms DROP INDEX slug, ADD INDEX slug(slug(191)) ساخته شده توسط wp_upgrade, pre_schema_upgrade
+[19-May-2015 11:01:40 UTC] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error refreshing the OAuth2 token, message: '{
+  "error" : "invalid_grant"
+}'' in /home/nshrabad/public_html/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php:288
+Stack trace:
+#0 /home/nshrabad/public_html/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php(248): Google_OAuth2->refreshTokenRequest(Array)
+#1 /home/nshrabad/public_html/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php(225): Google_OAuth2->refreshToken('1/NjKJntRTgUDMI...')
+#2 /home/nshrabad/public_html/wp-content/plugins/google-analyticator/google-api-php-client/src/service/Google_ServiceResource.php(167): Google_OAuth2->sign(Object(Google_HttpRequest))
+#3 /home/nshrabad/public_html/wp-content/plugins/google-analyticator/google-api-php-client/src/contrib/Google_AnalyticsService.php(784): Google_ServiceResource->__call('list', Array)
+#4 /home/nshrabad/public_html/wp-content/plugin in /home/nshrabad/public_html/wp-content/plugins/google-analyticator/google-api-php-client/src/auth/Google_OAuth2.php on line 288
